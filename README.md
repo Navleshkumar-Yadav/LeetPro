@@ -32,9 +32,7 @@
 - [👨‍💼 Admin Panel](#-admin-panel)
 - [🔒 Authentication & Security](#-authentication--security)
 - [📱 Responsive Design](#-responsive-design)
-- [🧪 Testing](#-testing)
-- [🚀 Deployment](#-deployment)
-- [🤝 Contributing](#-contributing)
+
 
 ---
 
