@@ -541,7 +541,7 @@ function AdminPanel() {
                                 {...register(`visibleTestCases.${index}.input`)}
                                 className="dark-input w-full px-3 py-2 rounded text-sm font-mono"
                                 rows={3}
-                                placeholder="[2,7,11,15], 9"
+                                placeholder="4 ( Size ) 2 7 11 15 ( Array Elements ) 9 ( Further Input ) (All in one line )"
                               />
                             </div>
                             <div>
@@ -550,7 +550,7 @@ function AdminPanel() {
                                 {...register(`visibleTestCases.${index}.output`)}
                                 className="dark-input w-full px-3 py-2 rounded text-sm font-mono"
                                 rows={3}
-                                placeholder="[0,1]"
+                                placeholder="0 1 ( Output in one Line )"
                               />
                             </div>
                             <div className="md:col-span-2">
