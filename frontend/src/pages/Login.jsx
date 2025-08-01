@@ -193,7 +193,7 @@ function Login() {
         <div className="flex flex-col items-center mt-4">
           <span className="text-gray-400 mb-2 text-sm">or</span>
           <a
-            href="https://leetpro-finalbackend.onrender.com/user/auth/google"
+            href="https://leet-pro.vercel.app"
             className="w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg border border-gray-700 bg-white text-gray-900 font-semibold hover:bg-gray-100 transition-colors text-sm"
             style={{ textDecoration: 'none' }}
           >
