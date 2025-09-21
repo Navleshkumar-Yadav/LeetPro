@@ -1,4 +1,4 @@
-require('dotenv').config();      
+require('dotenv').config();   // loding environtmental variable    
 const express = require('express')
 const app = express();
 const main =  require('./config/db.js')

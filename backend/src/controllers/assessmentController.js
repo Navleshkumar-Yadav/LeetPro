@@ -3,7 +3,7 @@ const AssessmentSubmission = require('../models/assessmentSubmission.js');
 const Problem = require('../models/problem.js');
 const Subscription = require('../models/subscription.js');
 const UserProfile = require('../models/userProfile.js');
-const { getLanguageById, submitBatch, submitToken } = require('../utils/problemUtility.js');
+const { getLanguageById, submitBatch, submitToken } = require('../utils/problemUtility.js'); // used for online code executios
 
 const getAllAssessments = async (req, res) => {
     try {
@@ -17,7 +17,7 @@ const getAllAssessments = async (req, res) => {
         });
         
         const hasActiveSubscription = !!subscription;
-        
+        // fatches all assemenet from DB with selected feilds only 
         const assessments = await Assessment.find({})
             .select('title description type category company isPremium duration totalQuestions difficulty')
             .sort({ createdAt: -1 });
