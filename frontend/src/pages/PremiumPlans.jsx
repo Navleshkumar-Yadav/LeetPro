@@ -85,7 +85,7 @@ const PremiumPlans = () => {
         key,
         amount,
         currency,
-        name: 'CodeForge Premium',
+        name: 'LeetPro Premium',
         description: `${plan.name} Subscription`,
         order_id: orderId,
         handler: async (response) => {
@@ -226,7 +226,7 @@ const PremiumPlans = () => {
                 <CheckCircle className="w-16 h-16 text-green-400 mx-auto mb-4" />
                 <h3 className="text-2xl font-bold text-green-400 mb-2">Payment Successful!</h3>
                 <p className="text-gray-300 mb-4">
-                  Welcome to CodeForge Premium! You now have access to all premium features.
+                  Welcome to LeetPro Premium! You now have access to all premium features.
                 </p>
                 <div className="text-sm text-gray-400">
                   Redirecting to homepage in 3 seconds...
