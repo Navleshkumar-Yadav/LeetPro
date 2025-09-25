@@ -72,7 +72,7 @@
 //     {
 //       name: "Sarah Chen",
 //       role: "Software Engineer at Google",
-//       content: "CodeForge helped me land my dream job! The contest feature really improved my problem-solving speed.",
+//       content: "Le helped me land my dream job! The contest feature really improved my problem-solving speed.",
 //       avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150"
 //     },
 //     {
@@ -147,7 +147,7 @@
 //               whileHover={{ scale: 1.05 }}
 //             >
 //               <Code className="w-8 h-8 text-blue-400" />
-//               <span className="text-2xl font-bold gradient-text">CodeForge</span>
+//               <span className="text-2xl font-bold gradient-text">Le</span>
 //             </motion.div>
             
 //             <div className="flex items-center space-x-4">
@@ -457,7 +457,7 @@
 //               What Our <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">Community</span> Says
 //             </h2>
 //             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-//               Join thousands of developers who have transformed their careers with CodeForge
+//               Join thousands of developers who have transformed their careers with Le
 //             </p>
 //           </motion.div>
 
@@ -629,7 +629,7 @@
 //               Ready to <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Level Up</span>?
 //             </h2>
 //             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-//               Join the community of successful developers who chose CodeForge to advance their careers
+//               Join the community of successful developers who chose Le to advance their careers
 //             </p>
             
 //             <motion.div 
@@ -669,7 +669,7 @@
 //             <div className="md:col-span-2">
 //               <div className="flex items-center space-x-3 mb-4">
 //                 <Code className="w-8 h-8 text-blue-400" />
-//                 <span className="text-2xl font-bold gradient-text">CodeForge</span>
+//                 <span className="text-2xl font-bold gradient-text">Le</span>
 //               </div>
 //               <p className="text-gray-400 mb-6 max-w-md">
 //                 Empowering developers worldwide with comprehensive coding challenges, 
@@ -734,7 +734,7 @@
 
 //           <div className="border-t border-gray-700 mt-8 pt-8 text-center">
 //             <p className="text-gray-400">
-//               © 2025 CodeForge. All rights reserved. Made with ❤️ for developers worldwide.
+//               © 2025 Le. All rights reserved. Made with ❤️ for developers worldwide.
 //             </p>
 //           </div>
 //         </div>
@@ -855,7 +855,7 @@ const LandingPage = () => {
     {
       name: "Alex Chen",
       role: "Software Engineer at Google",
-      content: "CodeForge helped me crack my dream job! The contest feature really improved my problem-solving speed.",
+      content: "Le helped me crack my dream job! The contest feature really improved my problem-solving speed.",
       avatar: "AC"
     },
     {
@@ -922,7 +922,7 @@ const LandingPage = () => {
               whileHover={{ scale: 1.05 }}
             >
               <Code className="w-8 h-8 text-blue-400" />
-              <span className="text-2xl font-bold gradient-text">CodeForge</span>
+              <span className="text-2xl font-bold gradient-text">Le</span>
             </motion.div>
             
             {/* Desktop Navigation */}
@@ -1288,7 +1288,7 @@ const LandingPage = () => {
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
-                CodeForge Premium
+                Le Premium
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
@@ -1395,7 +1395,7 @@ const LandingPage = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Join thousands of developers who have improved their coding skills with CodeForge
+              Join thousands of developers who have improved their coding skills with Le
             </p>
           </motion.div>
 
@@ -1454,7 +1454,7 @@ const LandingPage = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join the CodeForge community today and start your journey to becoming a better programmer
+              Join the Le community today and start your journey to becoming a better programmer
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
@@ -1489,7 +1489,7 @@ const LandingPage = () => {
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center space-x-4 mb-4">
                 <Code className="w-8 h-8 text-blue-400" />
-                <span className="text-2xl font-bold gradient-text">CodeForge</span>
+                <span className="text-2xl font-bold gradient-text">Le</span>
               </div>
               <p className="text-gray-400 mb-4 max-w-md">
                 The ultimate platform for coding interview preparation and skill development. 
@@ -1530,7 +1530,7 @@ const LandingPage = () => {
           
           <div className="border-t border-gray-700 mt-8 pt-8 text-center">
             <p className="text-gray-400">
-              © 2025 CodeForge. All rights reserved. Made with ❤️ for developers.
+              © 2025 Le. All rights reserved. Made with ❤️ for developers.
             </p>
           </div>
         </div>
