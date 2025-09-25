@@ -208,7 +208,7 @@ function Homepage() {
               <div className="flex items-center space-x-4">
                 <Code className="w-8 h-8 text-blue-400" />
                 <NavLink to="/home" className="text-2xl font-bold gradient-text">
-                  CodeForge
+                  LeetPro
                 </NavLink>
               </div>
               
