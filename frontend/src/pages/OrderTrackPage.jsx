@@ -385,7 +385,7 @@ const OrderTrackPage = () => {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <div className="flex items-center space-x-2 text-gray-300">
                     <Mail className="w-4 h-4 text-blue-400" />
-                    <span className="text-sm">support@CodeForge.com</span>
+                    <span className="text-sm">support@LeetPro.com</span>
                   </div>
                   <div className="flex items-center space-x-2 text-gray-300">
                     <Phone className="w-4 h-4 text-green-400" />
