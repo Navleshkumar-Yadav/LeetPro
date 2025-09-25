@@ -9,7 +9,6 @@ passport.use(new GoogleStrategy({
     callbackURL: process.env.GOOGLE_CALLBACK_URL,
 }, async (accessToken, refreshToken, profile, done) => {
     try {
-        // basiocallly check if user already exit or not
         const email = profile.emails[0].value;
         let user = await User.findOne({ emailId: email });
         if (!user) {
@@ -46,15 +45,3 @@ passport.deserializeUser(async (id, done) => {
 });
 
 module.exports = passport; 
-
-
-
-
-// Why This Approach?
-// Seamless Registration: Automatically creates accounts for new users
-
-// Session Persistence: Maintains login state across requests
-
-// Security: Leverages Google for credential validation
-
-// Compliance: Works with Mongoose-based user schemas
