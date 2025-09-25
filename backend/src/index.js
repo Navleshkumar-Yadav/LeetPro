@@ -1,6 +1,6 @@
-require('dotenv').config();   // loding environtmental variable    
 const express = require('express')
 const app = express();
+require('dotenv').config();      
 const main =  require('./config/db.js')
 const cookieParser =  require('cookie-parser');
 const authRouter = require("./routes/userAuth.js");
@@ -93,7 +93,7 @@ const InitalizeConnection = async ()=>{
         console.log("DB Connected");
         
         server.listen(process.env.PORT, ()=>{             
-            console.log("Server listening at port number: "+ 3000); 
+            console.log("Server listening at port number: "+ process.env.PORT);
         })
 
     }
@@ -105,5 +105,3 @@ const InitalizeConnection = async ()=>{
 
 InitalizeConnection();
 module.exports = { app, io };
-
-
