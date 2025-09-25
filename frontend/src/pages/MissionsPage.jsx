@@ -25,7 +25,7 @@ const MISSIONS = [
     points: 200, 
     icon: Star, 
     color: 'from-blue-500 to-purple-600',
-    description: 'Welcome bonus for joining CodeForge',
+    description: 'Welcome bonus for joining LeetPro',
     category: 'Welcome'
   },
   { 
