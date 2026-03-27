@@ -28,11 +28,17 @@ function Login() {
     formState: { errors },
   } = useForm({ resolver: zodResolver(loginSchema) });
 
+  // useEffect(() => {
+  //   if (isAuthenticated) {
+  //     navigate('/home');
+  //   }
+  // }, [isAuthenticated, navigate]);
+
   useEffect(() => {
-    if (isAuthenticated) {
-      navigate('/home');
-    }
-  }, [isAuthenticated, navigate]);
+  if (!loading && isAuthenticated) {
+    navigate('/home');
+  }
+}, [isAuthenticated, loading, navigate]);
 
   const onSubmit = (data) => {
     dispatch(loginUser(data));
