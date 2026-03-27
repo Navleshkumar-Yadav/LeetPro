@@ -147,7 +147,7 @@
 //               whileHover={{ scale: 1.05 }}
 //             >
 //               <Code className="w-8 h-8 text-blue-400" />
-//               <span className="text-2xl font-bold gradient-text">Le</span>
+//               <span className="text-2xl font-bold gradient-text">LeetPro</span>
 //             </motion.div>
             
 //             <div className="flex items-center space-x-4">
