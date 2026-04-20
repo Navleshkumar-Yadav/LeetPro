@@ -1,0 +1,1 @@
+import{a as t}from"./index-Dx57EP1c.js";const a={page:1,limit:5e3,listAll:!0,search:"",difficulty:"all",tag:"all",status:"all",premiumOnly:!1};async function s(){const{data:l}=await t.get("/problem/getAllProblem",{params:a});return l.problems??[]}export{s as f};
